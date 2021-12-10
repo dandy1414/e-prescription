@@ -21,5 +21,9 @@ cp .env.example .env
 php artisan generate:key
 ```
 
-6.Go to the /list-obat for the homepage
+6.Turn on the local server
+```shell
+php artisan serve
+```
 
+7.Go to http://127.0.0.1:8000/list-obat url for the homepage
